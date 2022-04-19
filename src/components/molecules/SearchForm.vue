@@ -2,7 +2,7 @@
   <form class="search-form">
     <input type="search" placeholder="Buscar" />
     <button>
-      <img src="@/components/images/icons/search.svg" alt="Buscar" />
+      <img src="@/assets/images/icons/search.svg" alt="Buscar" />
     </button>
   </form>
 </template>
