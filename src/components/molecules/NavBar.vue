@@ -1,5 +1,4 @@
 <template>
-  <Logo />
   <nav class="nav-bar">
     <NavItem text="Serviços" to="/services" />
     <NavItem text="Sobre mim" to="/about" />
@@ -10,10 +9,10 @@
 
 <script>
 import { defineComponent } from 'vue'
-import { Logo, NavItem } from '@/components/atoms'
+import { NavItem } from '@/components/atoms'
 
 export default defineComponent({
-  components: { Logo, NavItem }
+  components: { NavItem }
 })
 </script>
 
