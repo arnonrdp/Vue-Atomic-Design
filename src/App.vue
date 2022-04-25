@@ -1,22 +1,12 @@
 <template>
-  <div class="component">
-    <Header />
-    <Presentation />
-    <Services />
-  </div>
+  <Home-Template />
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { Header, Presentation, Services } from '@/components/organisms'
+import { HomeTemplate } from './components/templates'
 
 export default defineComponent({
-  components: { Header, Presentation, Services }
+  components: { HomeTemplate }
 })
 </script>
-
-<style lang="scss" scoped>
-// .component {
-//   width: 5rem;
-// }
-</style>
